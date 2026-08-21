@@ -1,0 +1,7 @@
+zh_TW:
+  chat_integration_telegram_link_preview:
+    message: '<b>%{user}</b> 建立了新主題：<a href="%{post_url}">%{title}</a>'
+    message_with_category: '<b>%{user}</b> 在 %{category} 建立了新主題：<a href="%{post_url}">%{title}</a>'
+  site_settings:
+    chat_integration_telegram_link_preview: "chat-integration 的 Telegram 通知的連結預覽:disabled(不顯示卡片)、small(小縮圖)或 large(大圖)。"
+    chat_integration_telegram_link_preview_category: "在通知中顯示主題所屬分類的路徑(如 Gentoo 技術交流/內核與硬體),預設關閉。"

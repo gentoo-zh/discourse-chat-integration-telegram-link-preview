@@ -1,3 +1,7 @@
 zh_CN:
+  chat_integration_telegram_link_preview:
+    message: '<b>%{user}</b> 创建了新帖：<a href="%{post_url}">%{title}</a>'
+    message_with_category: '<b>%{user}</b> 在 %{category} 创建了新帖：<a href="%{post_url}">%{title}</a>'
   site_settings:
     chat_integration_telegram_link_preview: "chat-integration 的 Telegram 通知的链接预览:disabled(不显示卡片)、small(小缩略图)或 large(大图)。"
+    chat_integration_telegram_link_preview_category: "在通知中显示帖子所属分类的路径(如 Gentoo 技术交流/内核与硬件),默认关闭。"

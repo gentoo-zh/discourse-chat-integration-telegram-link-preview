@@ -6,3 +6,6 @@ plugins:
       - disabled
       - small
       - large
+  chat_integration_telegram_link_preview_category:
+    default: false
+    client: false

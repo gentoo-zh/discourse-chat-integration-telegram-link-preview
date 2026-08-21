@@ -1,3 +1,7 @@
 en:
+  chat_integration_telegram_link_preview:
+    message: '<b>%{user}</b> posted a new topic: <a href="%{post_url}">%{title}</a>'
+    message_with_category: '<b>%{user}</b> posted a new topic in %{category}: <a href="%{post_url}">%{title}</a>'
   site_settings:
     chat_integration_telegram_link_preview: "Link preview on chat-integration Telegram notifications: disabled (no card), small (compact thumbnail) or large (big image)."
+    chat_integration_telegram_link_preview_category: "Show the topic's category path (e.g. Parent/Child) in the notification. Off by default."

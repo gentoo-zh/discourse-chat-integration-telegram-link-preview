@@ -1,13 +1,18 @@
 # discourse-chat-integration-telegram-link-preview
 
-A tiny [Discourse](https://www.discourse.org/) plugin that lets
-[discourse-chat-integration](https://github.com/discourse/discourse-chat-integration) show
-Telegram's native link preview on its Telegram notifications.
+A tiny [Discourse](https://www.discourse.org/) plugin that controls Telegram's link preview on
+[discourse-chat-integration](https://github.com/discourse/discourse-chat-integration) Telegram
+notifications. Upstream hardcodes the preview off; this plugin makes it a choice.
 
-## Why
+## Setting
 
-The upstream plugin hardcodes `disable_web_page_preview: true`, so no preview card is shown. This
-plugin sets it to `false`, letting a topic notification render the forum page's link preview.
+`chat_integration_telegram_link_preview` (default `small`):
+
+- `disabled` — no preview card
+- `small` — compact thumbnail
+- `large` — large image
+
+Changed at runtime; no restart needed.
 
 ## Install
 

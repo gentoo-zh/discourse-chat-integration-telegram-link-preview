@@ -1,0 +1,3 @@
+zh_CN:
+  site_settings:
+    chat_integration_telegram_link_preview: "chat-integration 的 Telegram 通知的链接预览:disabled(不显示卡片)、small(小缩略图)或 large(大图)。"

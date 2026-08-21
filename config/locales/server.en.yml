@@ -1,0 +1,3 @@
+en:
+  site_settings:
+    chat_integration_telegram_link_preview: "Link preview on chat-integration Telegram notifications: disabled (no card), small (compact thumbnail) or large (big image)."

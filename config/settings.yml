@@ -1,0 +1,8 @@
+plugins:
+  chat_integration_telegram_link_preview:
+    default: "small"
+    type: enum
+    choices:
+      - disabled
+      - small
+      - large
